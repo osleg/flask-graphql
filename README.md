@@ -24,6 +24,7 @@ This will add `/graphql` and `/graphiql` endpoints to your app.
  * `context`: A value to pass as the `context` to the `graphql()` function.
  * `root_value`: The `root_value` you want to provide to `executor.execute`.
  * `pretty`: Whether or not you want the response to be pretty printed JSON.
+ * `middleware`: A middleware class to run when request is received
  * `executor`: The `Executor` that you want to use to execute queries.
  * `graphiql`: If `True`, may present [GraphiQL](https://github.com/graphql/graphiql) when loaded directly from a browser (a useful tool for debugging and exploration).
  * `graphiql_template`: Inject a Jinja template string to customize GraphiQL.
